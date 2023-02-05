@@ -1,0 +1,10 @@
+let x = -0;
+console.log(x.toString());
+console.log(String(x));
+console.log(typeof(String(x)));
+console.log(Math.sign(-0));
+console.log(Math.sign(0));
+console.log(Math.sign(-5));
+console.log(Math.sign(28));
+console.log(Math.sign(NaN));
+console.log(x < 0);
